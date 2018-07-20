@@ -3,7 +3,7 @@ import pymysql
 
 #change the databse information to reflect your own
 #open database connection
-db = pymysql.connect('servername','username','password','tablename')
+db = pymysql.connect('servername','username','password','dbname')
 
 #prepare a cursor object
 cursor = db.cursor()
